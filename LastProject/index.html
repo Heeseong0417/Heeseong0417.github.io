@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <H1>My Todolist</H1>
+        <h2 class="js-clock" align = "right"></h2>
+    </form>
+    
+    <hr>
+    <form class="hidden" id="login-form">
+        <input required maxlength="15" type="text" placeholder="ID를 입력하세요 !">
+        <input type="submit" value="로그인!">
+    </form>
+<h1 class="hidden" id="greeting"></h1>
+<hr>
+
+
+<ul id="todo-list">
+    <h1>ToList!</h1> 
+    <h2>오늘의 할일을 입력하세요~</h2>
+    <form id="todo-form">
+    <input type="text" id="id1" placeholder="Write a To Do and Press Enter" size="100" required/>
+
+</form>
+</ul>
+<hr>
+
+<div id="div_weather">
+    <h2 id="loc_id">당신이 사는 지역은      : </h2>
+    <h2 id="we_id">당신이 사는 지역 날씨는 : </h2>
+</div>
+<hr>
+    <script src="js/weather.js"></script>
+    <script src="js/bgimg.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/clock.js"></script>
+</body>
+</html>

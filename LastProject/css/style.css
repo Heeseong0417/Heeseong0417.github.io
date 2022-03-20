@@ -1,0 +1,26 @@
+body{
+    background-size: cover;
+    height: 100vh;
+    font-family: "img/암스테르담";
+    list-style-type:georgian;
+    font-feature-settings: "aalt";
+  
+   color: aliceblue;
+   background: linear-gradient(black, black);
+   background-size: cover;
+
+}
+.white{
+    color: aliceblue;
+}
+.hidden{
+    display: none;
+}
+.image{
+
+    background-image: url('/img/배경1.jpg');
+
+}
+.bgcolor{
+    background: linear-gradient( rgb(61, 41, 41), black);
+}
